@@ -1,7 +1,7 @@
 {
   "name": "ev3-js-wait",
   "description": "wait block for use with running the motor forever",
-  "repository": "git://github.com/micro-js/wait.git",
+  "repository": "git://github.com/ev3-js/wait.git",
   "version": "0.1.2",
   "license": "MIT",
   "main": "lib/index.js",
