@@ -14,16 +14,18 @@ wait block for use with running the motor forever
 
 ```js
 var wait = require('ev3-js-wait')
+var TouchSensor = require('ev3-js-touch-sensor')
 
+wait(function () {
+  return TouchSensor('b').value === 1
+})
 ```
 
 ## API
 
-### wait(arg)
+### wait(fn)
 
-- `arg` -
-
-**Returns:**
+- `fn` - function that returns a conditional
 
 ## License
 
