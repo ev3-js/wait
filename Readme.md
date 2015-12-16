@@ -17,7 +17,7 @@ var wait = require('ev3-js-wait')
 var TouchSensor = require('ev3-js-touch-sensor')
 
 wait(function () {
-  return TouchSensor('b').value === 1
+  return TouchSensor(3).value === 1
 })
 ```
 
