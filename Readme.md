@@ -14,11 +14,11 @@ wait block for use with running the motor forever
 
 ```js
 var wait = require('ev3-js-wait')
-var TouchSensor = require('ev3-js-touch-sensor')
+var TouchSensor = require('touch-sensor')
 var MoveSteering = require('move-steering')
 
 // Move forever
-MoveSteering.forever(300)
+MoveSteering().forever(300)
 
 // Wait for the touch sensor to activate
 wait(function () {
